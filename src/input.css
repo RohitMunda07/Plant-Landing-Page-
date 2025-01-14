@@ -1,3 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lobster&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 @tailwind base;
+
 @tailwind components;
+
 @tailwind utilities;
+
+body {
+  @apply bg-green-950 text-white font-Jost tracking-wider;
+}
+
+.nav-link {
+  @apply text-lg font-bold duration-300;
+}
+
+.nav-link:hover {
+  @apply text-yellow-500;
+}
+
+.social-media {
+  @apply text-2xl;
+}
+
+.social-media:hover {
+  @apply text-yellow-500;
+}
+
+.animation {
+  @apply animate-in fade-in-0 zoom-in duration-1000 delay-100 ease-in;
+}
+
+.spin-animation {
+  @apply animate-spinCustom;
+}
+
+.heart-animation {
+  @apply animate-heartBeat;
+}
+
+.bouce-animation {
+  @apply animate-bounceCustom;
+}
+
+.card_animate {
+  @apply -translate-y-3 animate-in duration-300 ease-linear;
+}
+
+.swiper-pagination-bullet {
+  @apply bg-green-500 w-3 h-3;
+}
+
+.sub_animate {
+  @apply hover:scale-110 animate-in duration-100 ease-linear hover:shadow-green-500 shadow-md;
+}
+
+.footer-social-media:hover {
+  @apply text-green-800 scale-125;
+}
+
+.uiHover:hover {
+  @apply text-green-950;
+}
